@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("change the webhook address and test again !");
+    response.end("测试一下中文显示 !");
 
 });
 
