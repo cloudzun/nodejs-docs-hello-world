@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("How do you do , Zunhua !");
+    response.end("居然有人惦记我，呵呵!");
 
 });
 
