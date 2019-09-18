@@ -2,10 +2,8 @@ var http = require('http');
 
 var server = http.createServer(function(request, response) {
 
-    response.writeHead(200, {"Content-Type": "text/html"});
-    response.write("Welcome to my website!<br/>");
-    response.write("<a href='/.auth/login/microsoftaccount'>Log in with Microsoft Account</a>");
-    response.end();
+    response.writeHead(200, {"Content-Type": "text/plain"});
+    response.end("Hello World from Jenkins + Docker + Github by Zunhua @20190913 Ver 2");
 
 });
 
