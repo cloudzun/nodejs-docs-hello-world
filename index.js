@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World from Jenkins + Docker + Github by Zunhua @20200416 ver4.1 ");
+    response.end("Hello World from Jenkins + Docker + Github by Zunhua @20200424 ver4.1 ");
 
 });
 
